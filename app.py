@@ -24,7 +24,7 @@ url = os.getenv("NEO4J_URI")
 if not all([url, username, password,
           ollama_base_url]):
     st.write("The application requires some information before running.")
-    st.write("hello world")
+    st.write("hello world babe")
     with st.form("connection_form"):
         url = st.text_input("Enter NEO4J_URI",)
         username = st.text_input("Enter NEO4J_USERNAME")
